@@ -1,10 +1,10 @@
-package model.DAO;
+package model.Dao;
 
 import java.util.List;
 
 import model.entities.Department;
 
-public interface DepartmentDAO {
+public interface DepartmentDao {
 	
 	void insert (Department obj);
 	void update (Department obj);
